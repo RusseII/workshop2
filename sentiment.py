@@ -4,8 +4,13 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 import plotly
 
-
-plotly.tools.set_credentials_file(username='caynindahouse', api_key='wIaNF2bXeUpno2BCV0FJ')
+# You must create your own plotly account for this to work - register here:
+# https://plot.ly/accounts/login/?next=%2Fsettings%2Fapi
+# after you create account, go here: 
+# http://plot.ly/settings/api
+# copy your username, paste it below!
+# generate a new API key, paste it below!
+plotly.tools.set_credentials_file(username='YOUR USERNAME HERE', api_key='YOUR API KEY')
 
 tone_analyzer = ToneAnalyzerV3(
    username='4c3ca360-5df4-48d2-8a15-9546c7b08454',
